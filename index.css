@@ -1,0 +1,337 @@
+* { margin: 0px; padding: 0px;
+    /* box-sizing: border-box;  */
+    /* overflow-x: hidden; */
+}
+
+header { box-shadow: 1px 1px 3px 2px #E3E6F3; }
+
+#searchbar { width: 100%;
+             height: 60px;
+             background-color: #ffffffe1;
+             position: fixed;
+             top: 0px; }
+
+#logo { float: left; 
+        margin-left: 10px; }
+
+#logo img { height: 54px;
+            width: 70px; }
+
+#search { float: right;
+          margin-right: 12px;
+          margin-left: 25px; }
+
+#search img { height: 15px;
+              width: auto; }
+
+#search input { width: 45px;
+                height: 7px;
+                padding-top: 6px;
+                padding-bottom: 2px;
+                margin-top: 12px;
+                border-color: unset;
+                background-color: #E3E6F3;
+                border-radius: 7px; }
+
+#sign { float: right;
+        margin-top: 13px;
+        font-weight: 500;
+        text-align: center;
+        width: 80px;
+        background-color: #0068bd;
+        border-radius: 10px;
+        font-family: SST,helvetica,arial,sans-serif; }
+
+#sign a { color: #fff;
+          text-decoration: none; }
+          
+#header ul { list-style-position: inside;
+             list-style-type: none;
+             display: flex;
+             justify-content: center;
+             flex-wrap: wrap;
+             /* align-items: center;  */
+             /* padding-bottom: 13px; */
+             background-color: #ffffffe1;
+             position: fixed;
+             width: 100%;
+             top: 60px; }
+ 
+.nav-items { background-color: #d2d4d9;
+             margin: 10px;
+             padding: 0 20px;
+             border: 1px solid none;
+             border-radius: 10px;
+             width: 60px;
+             text-align: center;
+             font-family: SST,helvetica,arial,sans-serif; }
+
+.nav-items a { text-decoration: none;
+               color: #1a1a1a;
+               font-size: 18px;
+               font-weight: 600; }
+
+.nav-items a:hover, .nav-items a#active { color: #088178; }
+
+#main-image { width: auto;
+              height: 100vh;
+              background: url("PS5.png");
+              background-repeat: no-repeat;
+              background-size: cover; }
+
+#text0 { font-size: 60px; 
+         font-weight: 600;
+         color: #E3E6F3;
+         text-align: center;
+         padding-top: 30px;
+         padding-bottom: 30px;
+         padding-left: 15px;
+         /* text-shadow: -5px -4px 2px #1a1a1a; */
+         /* width: fit-content; */
+         position: absolute;
+         top: 250px;
+         left: 150px;
+         margin-left: auto;
+         margin-right: auto; }
+
+#journey { width: 100%; 
+           height: 87vh;
+           background-color: #002fc3; }
+
+#journey section { max-width: 700px;
+                   margin: 0px auto;
+                   padding: 40px 13px 0px 13px; }
+
+#text1 { font-size: 40px;
+         color: #E3E6F3;
+         font-family: Tahoma, Geneva, Verdana, sans-serif;
+         text-align: center;
+         padding-bottom: 30px; }
+
+#journey ul { list-style-position: inside;
+              list-style-type: none;
+              margin: 60px 0px;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between; }
+
+#journey ul li { color: #E3E6F3;
+                 width: 100px;
+                 font-size: 20px;
+                 font-weight: 500;
+                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+#text2 { margin-top: 60px;
+         color: #E3E6F3;
+         font-size: 20px;
+         line-height: 25px; }
+
+#adventure { width: auto;
+             height: 100vh;
+             background: url("control.jpg");
+             background-repeat: no-repeat;
+             background-size: cover; 
+             font-size: 40px;
+             font-family: Tahoma, Geneva, Verdana,  sans-serif;
+             color: #E3E6F3;
+             text-align: center;
+             padding: 20px; }
+
+#text3 { width: 250px;
+         margin: 230px auto;
+         color: #fff;
+         font-size: 50px;
+         font-weight: 750; }
+
+#controller video { width: 100%;
+                    height: auto; }
+
+#controller { background-color: #d2d4d9; }
+
+.text4 { height: 140px;
+         padding-top: 50px;
+         padding-bottom: 13px;
+         font-size: 60px;
+         color: #E3E6F3;
+         font-family: Tahoma, Geneva, Verdana, sans-serif;
+         text-align: center;
+         background-color: #00239c; }
+
+#triggers video { width: 60%;
+                  height: auto; }
+
+#triggers { background-color: #d8dce8;
+            display: flex; }
+
+.text5 { margin: 90px auto 0 auto;
+         font-family: "apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+         font-size: 50px;
+         text-align: center;
+         font-weight: lighter; }
+
+.text6 { margin: 80px auto 0 auto;
+         padding-left: 5px;
+         padding-bottom: 10px;
+         font-weight: normal;
+         text-align: center;
+         font-size: 18px;
+         line-height: 25px;
+         font-family: "apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif; }
+
+#feedback video { width: 58%;
+                  height: auto; }
+
+#feedback { background-color: #d8dce8;
+            display: flex; }
+                 
+.text7 { width: 120px;
+         text-align: center;
+         font-size: 18px;
+         font-family: SST,helvetica,arial,sans-serif;
+         padding: 8px;
+         border: none;
+         border-radius: 17px;
+         background-color: #0068bd;
+         margin-top: 25px;
+         margin-left: 5px;
+         margin-bottom: 20px; }
+
+.text7 a:hover { color: #1a1a1a;
+                 font-size: 19px; }
+
+.text7 a { color: #fff;
+           text-decoration: none; }
+
+#speak { background-color: #d8dce8;
+         display: flex;
+         padding-top: 70px;
+         overflow-x: hidden; }
+
+#speak figure { width: 75%;
+                height: auto; }
+
+#speak article { padding-left: 15px; }
+
+#moments { background-color: #d8dce8;
+           display: flex;
+           overflow-x: hidden; }
+
+#moments figure { width: 70%;
+                  height: auto; }
+
+#moments article { padding-left: 15px;
+                   padding-top: 25px; }
+
+#power { background-color: #d8dce8; }
+
+#text8 { margin-top: 0px; }
+
+#text9 { padding-bottom: 145px; }
+
+#speed { background-color: #d8dce8; }
+
+#speed video { width: 100%;
+               height: auto; }
+
+.text10 { width: 100%;
+          background-color: #00239c;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          padding-top: 60px;
+          padding-bottom: 40px;
+          color: #fff;
+          font-size: 67.375px;
+          /* font-family: "Mont Heavy, sans-serif"; */
+          font-family: Tahoma, Geneva, Verdana, sans-serif;
+          font-weight: 750; }
+
+#warp { background-color: #d8dce8;
+        display: flex; }
+
+#warp video { width: 49%;
+              height: 100vh; }
+
+#text11 { margin-top: 80px; }
+
+#text12 { margin-top: 20px; }
+
+#text13 { margin-top: 20px; }
+
+#explore { background-color: #d8dce8;
+           display: flex;
+           padding-top: 50px;
+           justify-content: space-evenly; }
+
+/* #explore article { margin-left: 7px; } */
+
+#explore video { width: 40%;
+                 height: 100vh; }
+
+#colors { background-color: #d8dce8;
+          display: flex;
+          padding-top: 200px;
+          justify-content: space-evenly; }
+
+#colors video { width: 70%;
+                height: 90vh; }
+
+#realism { background-color: #d8dce8;
+           display: flex;
+           padding-top: 230px;
+           justify-content: space-evenly; }
+
+#realism video { width: 57%;
+                 height: 90vh; }
+
+#graphics { background-color: #d8dce8;
+            display: flex;
+            padding-top: 230px;
+            justify-content: space-evenly; }
+
+#graphics video { width: 53%;
+                  height: 90vh; }
+
+#venture { background-color: #d8dce8; }
+
+#venture video { width: 100%;
+           height: auto; }
+
+#vr { background-color: #d8dce8;
+      display: flex;
+      padding-top: 140px;
+      overflow-x: hidden; }
+ 
+ #vr figure { width: 100%;
+              height: auto; }
+ 
+ #vr article { padding-left: 15px; }
+               
+#text14 { margin-top: 0px; }
+
+#text15 { margin-top: 50px; }
+
+#text16 { margin-left: 23px; }
+
+#psplus { width: auto;
+          height: 100vh;
+          background: url("play station plus.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: flex;
+          align-items: flex-start; }
+
+#psplus article {margin-right: 150px;}
+
+#text17 { padding-top: 50px; }
+
+#text18 { padding-top: 80px; }
+
+#text19 { margin-left: 50px;
+          margin-top: 10px; }
+
+footer { width: 100%;
+         height: 70vh;
+         background: url("footer.jpg");
+         background-size: contain;
+         background-repeat: no-repeat; }
