@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    background: url("wallpaper.jpg");
+    color: #f5f6f7;
+    font-family: -apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,HiraKakuProN-W3,'Noto Sans CJK JP',sans-serif;
+}
+ 
+#form {
+    width: 26.0vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 35px auto;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    height: 530px;
+    overflow-x: hidden;
+}
+
+#strip1 { 
+    width: 400px;
+    height: 100px;
+    background-color: #000000;
+    background-image: url("sony_logo.png");
+    background-repeat: no-repeat;
+}
+
+#strip2 {
+    width: 400px;
+    height: 90px;
+    background: url("logo_playstation.png")
+}
+
+#info { 
+    font-size: 15px;
+    /* text-align: center; */
+    margin-left: 30px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 80%;
+    min-height: 2em;
+    padding: 0px 10px;
+    border: 1px solid #d2d4d9;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+#trouble { 
+    font-size: 13px;
+    margin-top: 22px;
+    margin-left: 30px;
+    color: blue;
+}
+
+#new { 
+    border: 1px solid #d2d4d9;
+    border-radius: 3px;
+    padding: 7.5px;
+    margin-left: 30px;
+    width: 300px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#formfooter {
+    color: #0000008c;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    font-size: 17px;
+    color: #fff;
+    background-color: blue;
+    border-color: #d2d4d9;
+    min-width: 317px;
+}
